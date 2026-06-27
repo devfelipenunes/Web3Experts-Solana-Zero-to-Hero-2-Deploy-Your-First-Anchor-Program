@@ -1,0 +1,20 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+counter = "3NPBA3zn4Dc8FsXkqoGKXE1uERdch63TkGCcMTTDkVVT"
+
+[programs.devnet]
+counter = "3NPBA3zn4Dc8FsXkqoGKXE1uERdch63TkGCcMTTDkVVT"
+
+[provider]
+cluster = "devnet"
+wallet = "/l/disk0/fnunes/.gemini/antigravity-cli/scratch/bounty-keypair.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]
